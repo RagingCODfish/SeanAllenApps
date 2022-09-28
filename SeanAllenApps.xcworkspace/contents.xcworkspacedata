@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:GHFollowers/GHFollowers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Monthly/Monthly.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SwiftUI-Weather/SwiftUI-Weather.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Apple-Frameworks/Apple-Frameworks.xcodeproj">
+   </FileRef>
+</Workspace>
