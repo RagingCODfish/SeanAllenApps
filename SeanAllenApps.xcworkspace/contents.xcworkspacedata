@@ -5,6 +5,12 @@
       location = "group:Appetizers/Appetizers.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Apple-Frameworks/Apple-Frameworks.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BarcodeScanner/BarcodeScanner.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:GHFollowers/GHFollowers.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,8 +18,5 @@
    </FileRef>
    <FileRef
       location = "group:SwiftUI-Weather/SwiftUI-Weather.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Apple-Frameworks/Apple-Frameworks.xcodeproj">
    </FileRef>
 </Workspace>

@@ -19,6 +19,7 @@
 		440F375128ED337C00F238A9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F375028ED337C00F238A9 /* NetworkManager.swift */; };
 		440F375328ED34AB00F238A9 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F375228ED34AB00F238A9 /* APError.swift */; };
 		440F375528ED3F9A00F238A9 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F375428ED3F9A00F238A9 /* AppetizerListViewModel.swift */; };
+		440F375728ED43D100F238A9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F375628ED43D100F238A9 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		440F375028ED337C00F238A9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		440F375228ED34AB00F238A9 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		440F375428ED3F9A00F238A9 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		440F375628ED43D100F238A9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				440F374E28ED32B500F238A9 /* AppetizerListCell.swift */,
 				440F375028ED337C00F238A9 /* NetworkManager.swift */,
 				440F375228ED34AB00F238A9 /* APError.swift */,
+				440F375628ED43D100F238A9 /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				440F371D28EBD66000F238A9 /* AppetizerTabView.swift in Sources */,
 				440F375128ED337C00F238A9 /* NetworkManager.swift in Sources */,
 				440F371B28EBD66000F238A9 /* AppetizersApp.swift in Sources */,
+				440F375728ED43D100F238A9 /* Alert.swift in Sources */,
 				440F372928EBD7A600F238A9 /* AppetizerListView.swift in Sources */,
 				440F372D28EBD7BA00F238A9 /* OrderView.swift in Sources */,
 			);
