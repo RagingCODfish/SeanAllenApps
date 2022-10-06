@@ -26,6 +26,8 @@
 		440F377928EE68EF00F238A9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377828EE68EF00F238A9 /* AppetizerDetailView.swift */; };
 		440F377C28EE887600F238A9 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377B28EE887600F238A9 /* APButton.swift */; };
 		440F377E28EE895600F238A9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377D28EE895600F238A9 /* XDismissButton.swift */; };
+		440F378028EE966C00F238A9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377F28EE966C00F238A9 /* AccountViewModel.swift */; };
+		440F378228EE97ED00F238A9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F378128EE97ED00F238A9 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		440F377828EE68EF00F238A9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		440F377B28EE887600F238A9 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		440F377D28EE895600F238A9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		440F377F28EE966C00F238A9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		440F378128EE97ED00F238A9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 				440F375228ED34AB00F238A9 /* APError.swift */,
 				440F375628ED43D100F238A9 /* Alert.swift */,
 				440F376B28ED655200F238A9 /* RemoteImage.swift */,
+				440F377F28EE966C00F238A9 /* AccountViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				440F376928ED4F3000F238A9 /* Color+Ext.swift */,
+				440F378128EE97ED00F238A9 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 				440F375328ED34AB00F238A9 /* APError.swift in Sources */,
 				440F377E28EE895600F238A9 /* XDismissButton.swift in Sources */,
 				440F374F28ED32B500F238A9 /* AppetizerListCell.swift in Sources */,
+				440F378028EE966C00F238A9 /* AccountViewModel.swift in Sources */,
 				440F375528ED3F9A00F238A9 /* AppetizerListViewModel.swift in Sources */,
 				440F376A28ED4F3000F238A9 /* Color+Ext.swift in Sources */,
 				440F372B28EBD7B000F238A9 /* AccountView.swift in Sources */,
@@ -250,6 +257,7 @@
 				440F371D28EBD66000F238A9 /* AppetizerTabView.swift in Sources */,
 				440F375128ED337C00F238A9 /* NetworkManager.swift in Sources */,
 				440F376C28ED655200F238A9 /* RemoteImage.swift in Sources */,
+				440F378228EE97ED00F238A9 /* String+Ext.swift in Sources */,
 				440F377928EE68EF00F238A9 /* AppetizerDetailView.swift in Sources */,
 				440F371B28EBD66000F238A9 /* AppetizersApp.swift in Sources */,
 				440F375728ED43D100F238A9 /* Alert.swift in Sources */,
