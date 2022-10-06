@@ -23,6 +23,7 @@
 		440F376828ED4E8700F238A9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F376728ED4E8700F238A9 /* LoadingView.swift */; };
 		440F376A28ED4F3000F238A9 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F376928ED4F3000F238A9 /* Color+Ext.swift */; };
 		440F376C28ED655200F238A9 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F376B28ED655200F238A9 /* RemoteImage.swift */; };
+		440F377928EE68EF00F238A9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377828EE68EF00F238A9 /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		440F376728ED4E8700F238A9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		440F376928ED4F3000F238A9 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		440F376B28ED655200F238A9 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		440F377828EE68EF00F238A9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +98,8 @@
 		440F376D28EE665100F238A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				440F377528EE670C00F238A9 /* Components */,
 				440F371C28EBD66000F238A9 /* AppetizerTabView.swift */,
+				440F377528EE670C00F238A9 /* Components */,
 				440F377428EE66F700F238A9 /* Home */,
 				440F377328EE66F100F238A9 /* Account */,
 				440F377228EE66E600F238A9 /* Order */,
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				440F372828EBD7A600F238A9 /* AppetizerListView.swift */,
+				440F377828EE68EF00F238A9 /* AppetizerDetailView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				440F371D28EBD66000F238A9 /* AppetizerTabView.swift in Sources */,
 				440F375128ED337C00F238A9 /* NetworkManager.swift in Sources */,
 				440F376C28ED655200F238A9 /* RemoteImage.swift in Sources */,
+				440F377928EE68EF00F238A9 /* AppetizerDetailView.swift in Sources */,
 				440F371B28EBD66000F238A9 /* AppetizersApp.swift in Sources */,
 				440F375728ED43D100F238A9 /* Alert.swift in Sources */,
 				440F372928EBD7A600F238A9 /* AppetizerListView.swift in Sources */,
