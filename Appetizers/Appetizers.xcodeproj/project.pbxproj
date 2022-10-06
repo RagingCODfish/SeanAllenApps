@@ -29,6 +29,7 @@
 		440F378028EE966C00F238A9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F377F28EE966C00F238A9 /* AccountViewModel.swift */; };
 		440F378228EE97ED00F238A9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F378128EE97ED00F238A9 /* String+Ext.swift */; };
 		440F378428EEA1FC00F238A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F378328EEA1FC00F238A9 /* User.swift */; };
+		440F378628EEAF1B00F238A9 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F378528EEAF1B00F238A9 /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		440F377F28EE966C00F238A9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		440F378128EE97ED00F238A9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		440F378328EEA1FC00F238A9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		440F378528EEAF1B00F238A9 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				440F372C28EBD7BA00F238A9 /* OrderView.swift */,
+				440F378528EEAF1B00F238A9 /* EmptyState.swift */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				440F375128ED337C00F238A9 /* NetworkManager.swift in Sources */,
 				440F376C28ED655200F238A9 /* RemoteImage.swift in Sources */,
 				440F378228EE97ED00F238A9 /* String+Ext.swift in Sources */,
+				440F378628EEAF1B00F238A9 /* EmptyState.swift in Sources */,
 				440F377928EE68EF00F238A9 /* AppetizerDetailView.swift in Sources */,
 				440F371B28EBD66000F238A9 /* AppetizersApp.swift in Sources */,
 				440F375728ED43D100F238A9 /* Alert.swift in Sources */,
