@@ -23,6 +23,7 @@ struct AppetizerListView: View {
                 }
                 .navigationTitle("Appetizers")
                 .disabled(viewModel.isShowingDetail)
+                .listStyle(.plain)
             }
             .onAppear {
                 viewModel.getAppetizers()
