@@ -13,7 +13,7 @@ struct APButton: View {
         Text(title)
             .font(.title3)
             .fontWeight(.semibold)
-            .frame(width: 260, height: 50)
+            .frame(width: 350, height: 50)
             .foregroundColor(.black)
             .background(.yellow)
             .cornerRadius(10)
