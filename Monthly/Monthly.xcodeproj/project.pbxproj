@@ -62,6 +62,7 @@
 		440357AC28DACB6300E5CDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440357B828DADE2C00E5CDC3 /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
 		440357BB28DADF7700E5CDC3 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		44C0E75729A4E88B000F32E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		4403578D28DACAFC00E5CDC3 /* Monthly */ = {
 			isa = PBXGroup;
 			children = (
+				44C0E75729A4E88B000F32E7 /* Info.plist */,
 				4403578E28DACAFC00E5CDC3 /* MonthlyApp.swift */,
 				4403579028DACAFC00E5CDC3 /* ContentView.swift */,
 				4403579228DACAFE00E5CDC3 /* Assets.xcassets */,
@@ -400,6 +402,7 @@
 				DEVELOPMENT_TEAM = Z95C3Y6UPR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,6 +433,7 @@
 				DEVELOPMENT_TEAM = Z95C3Y6UPR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

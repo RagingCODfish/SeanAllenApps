@@ -10,29 +10,29 @@ import SwiftUI
 import Intents
 
 struct Provider: IntentTimelineProvider {
+	func getSnapshot(for configuration: ChangeFontIntent, in context: Context, completion: @escaping (DayEntry) -> Void) {
+		let entry = DayEntry(date: Date())
+		completion(entry)
+	}
+	
+	func getTimeline(for: ChangeFontIntent, in: Context, completion: @escaping (Timeline<DayEntry>) -> Void) {
+		var entries: [DayEntry] = []
+		
+		// Generate a timeline consisting of seven entries an day apart, starting from the current date.
+		let currentDate = Date()
+		for dayOffset in 0 ..< 7 {
+			let entryDate = Calendar.current.date(byAdding: .day, value: dayOffset, to: currentDate)!
+			let startOfDate = Calendar.current.startOfDay(for: entryDate)
+			let entry = DayEntry(date: startOfDate)
+			entries.append(entry)
+		}
+		
+		let timeline = Timeline(entries: entries, policy: .atEnd)
+		completion(timeline)
+	}
+	
     func placeholder(in context: Context) -> DayEntry {
         DayEntry(date: Date())
-    }
-    
-    func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (DayEntry) -> ()) {
-        let entry = DayEntry(date: Date())
-        completion(entry)
-    }
-    
-    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [DayEntry] = []
-        
-        // Generate a timeline consisting of seven entries an day apart, starting from the current date.
-        let currentDate = Date()
-        for dayOffset in 0 ..< 7 {
-            let entryDate = Calendar.current.date(byAdding: .day, value: dayOffset, to: currentDate)!
-            let startOfDate = Calendar.current.startOfDay(for: entryDate)
-            let entry = DayEntry(date: startOfDate)
-            entries.append(entry)
-        }
-        
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
     }
 }
 
@@ -80,10 +80,10 @@ struct MonthlyWidget: Widget {
     let kind: String = "MonthlyWidget"
     
     var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
+        IntentConfiguration(kind: kind, intent: ChangeFontIntent.self, provider: Provider()) { entry in
             MonthlyWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("Monthly Widget Style")
+		.configurationDisplayName("Monthly Widget Style")
         .description("The theme of widget changes based on month.")
         .supportedFamilies([.systemSmall])
     }
